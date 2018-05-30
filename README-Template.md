@@ -4,6 +4,10 @@ I am Tomin Thomas, a new programmer, and currently taking Computer Science.
 
 ## Getting Started
 
+'''
+To get started download all the files and upload them to your Cloud 9 or similar rogramming software
+'''
+
 
 
 ### Prerequisites
@@ -62,29 +66,18 @@ Add additional notes about how to deploy this on a live system
 -Javascript
 -PHP
 -Style Sheets
+-SQL
+- All done on Cloud 9 
 
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Tomin Thomas** 
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Mr.Mainhardt's code
+* My Family
+* Inpsired by Football
 
