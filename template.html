@@ -1,0 +1,61 @@
+<html lang="en">
+   <head>
+      <link rel='stylesheet' href='styles.css'>
+      <title>CRUD template</title>
+   </head>
+   <body style="background-color:red;">
+      <script>
+function myFunction() {
+   alert('Request is Proccesing');
+   
+}
+</script>
+      <center>
+         <img src="pic.jpg" border="0px" 
+               width="400px" height="400px" >
+      </center>
+      <br>
+      <br>
+      <center>
+         <form action='create.php' method = 'post'><!--needed to send info to php file !-->
+            <input type='text' placeholder='Full Name' name='lastName' class="advancedSearchTextBox">
+            <input type="text" placeholder=' Jersey Number' name= 'JerseyNumber' class="advancedSearchTextBox">
+            <input type="text" placeholder='Weight' name= 'Weight' class="advancedSearchTextBox">
+            <input type="text" placeholder=' Height' name= 'Height' class="advancedSearchTextBox">
+            <select id='select' name='Postion' >
+                 <option value="Safety" >Safety</option>
+                 <option value="Linebacker" >Linebacker</option>
+                 <option value="Cornerback" >Cornerback</option>
+                 <option value="D-line" >D-line</option>
+                 <option value="O-line" >O-line</option>
+                 <option value="Qb" >QB</option>
+                 <option value="Runningback" >Runningback</option>
+                 <option value="WR" >WR</option>
+            </select>
+            <select id='select' name='Roster'>
+                 <option value="Shakopee Sabers" >Sabers</option>
+                 
+            </select>
+           
+            
+            <input name = 'create' type = 'submit' value = 'Submit Info' onclick="myFunction()">
+         </form>
+         Find the roster for the selected team
+         <form action= 'read.php' method = 'post'>
+            <select id='select' name='Postion'>
+                 <option value="Safety" >Safety</option>
+                 <option value="Linebacker" >Linebacker</option>
+                 <option value="Cornerback" >Cornerback</option>
+                 <option value="D-line" >D-line</option>
+                 <option value="O-line" >O-line</option>
+                 <option value="Qb" >QB</option>
+                 <option value="Runningback" >Runningback</option>
+                 <option value="WR" >WR</option>
+            </select>
+            
+               <p></p>
+            <input name = 'read'   type = 'submit' value = 'Find Info'>
+         </form>
+      </center>
+   </body>
+</html>
