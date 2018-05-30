@@ -4,61 +4,38 @@ I am Tomin Thomas, a new programmer, and currently taking Computer Science.
 
 ## Getting Started
 
-'''
-To get started download all the files and upload them to your Cloud 9 or similar rogramming software
-'''
-
-
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
 ```
-Give examples
+To get started download all of the files and upload them to your Cloud 9 data base or similar software
 ```
 
-### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+### Purpose
 
+The purpose of the website
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+The website was created so that a user could catalog all of the players on a football team can be catalogged in a database. The database was cerated so that the user can read, edit, and delete all the data in the table.  
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+### How it was made
+```
+The webiste was made using a HTML template that on button clicks would call up a PHP file that would update a table in PHP my admin
+```
+ 
+## Why it was made
 
 ```
-Give an example
+The webiste was made to fufill the criterea for my Computer Science final project website that has Crud
+Crud stands for Create, Read, Update, Delete. 
 ```
+### How to use
 
-### And coding style tests
-
-Explain what these tests test and why
-
+An explanation on how to use the program
 ```
-Give an example
+To use this program all you have to do is take all the info on your players and plug them into the text box
+To read the data search for the specifc postion and it will pull it up
+To delete and edit click on the respective button and it will work. 
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
